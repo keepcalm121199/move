@@ -1,0 +1,81 @@
+#box {
+    position: absolute;
+    height: 325PX;
+    width: 325px;
+    border: 5px solid white;
+    top: 134px;
+    left: 102px;
+    background: linear-gradient(-45deg, yellow, pink);
+}
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    top: 7px;
+    position: absolute;
+    left: 7px;
+    background: linear-gradient(to right, #FFC0CB, #40E0D0);
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    position: absolute;
+    font-size: 47px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.up {
+    left: 125px;
+    top: 118px;
+}
+
+.down {
+    left: 125px;
+    top: 185px;
+}
+
+.left {
+    left: 56px;
+    top: 185px;
+}
+
+.right {
+    left: 192px;
+    top: 185px;
+}
+
+.up:before {
+    content: '\21E1';
+}
+
+.left:before {
+    content: '\21E0';
+}
+
+.down:before {
+    content: '\21E3';
+}
+
+.right:before {
+    content: '\21E2	';
+}
+.left,.down,.right{
+    top: 185px;
+}
+
+.key:hover{
+    background: linear-gradient(-15deg, blue, violet);
+}
+
+.key{
+    background: linear-gradient(-15deg, #98FB98, #FF6347);
+}
+.key{
+    color: #FFD700;
+}
+
+
